@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML FORMS</title>
+  </head>
+  <body>
+    <h3>Created form</h3>
+    <br />
+
+    <form action="">
+        <div class="names">
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname" placeholder="John"  maxlength="30" minlength="5" /><br />
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname" placeholder="Doe" maxlength="30" minlength="5"  /><br />
+
+        </div>
+        
+        <div class="biography">
+            <label for="biography">Give some info about yourself</label>
+            <textarea name="description" id="biography" cols="30" rows="5"></textarea><br>
+
+        </div>
+
+        <div class="email">
+            <label for="email">Your email address</label>
+            <input type="email" id="email" placeholder="xyz@gmail.com" ><br>
+
+        </div>
+       <div class="contact">
+
+        <label for="contact">Phone number </label>
+        <input type="number" id="contact" placeholder="0700000000" minlength="
+        10" maxlength="10"><br>
+
+       </div>
+      
+      
+      
+      <div class="checkboxes">
+
+        <p>What type of music do you listen to?</p>
+        <ul>
+        <li><input type="checkbox" name="genre" value="Rock" checked>Rock</li> 
+        <li><input type="checkbox" name="genre" value="Pop" checked> Pop</li> 
+        <li><input type="checkbox" name="genre" value="RnB"> RnB</li> 
+        <li><input type="checkbox" name="genre" value="Afro">Afro</li>
+        </ul>
+        
+        
+      </div>
+
+      <div class="radios">
+        <p>
+            Please select if youre a student or a tutor
+        </p>
+    
+        <input type="radio" id="student" name="student" value="student">
+        <label for="student"> Student</label><br>
+        <input type="radio" id="Tutor" name="tutor" value="tutor">
+        <label for="tutor"> Tutor</label><br>
+
+      </div>
+
+      <div class="select">
+        <label for="cars">Choose county of residence</label>
+
+        <select name="county" id="county" placeholder="county">
+            <option value="Nairobi">Nairobi</option>
+            <option value="nakuru">Nakuru</option>
+            <option value="voi">Voi</option>
+            <option value="Moyale">Moyale</option>
+        </select>
+
+      </div>
+
+      <div class="password">
+        <p>Please input your personal password</p>
+        <label for="password"></label>
+        <input type="password" name="" id="password" placeholder="Your password">
+      </div>
+
+      <div class="submit">
+        <label for="submit"></label>
+        <input type="submit" name="" id="submit">
+        
+      </div>
+
+    
+      
+
+
+
+    </form>
+  </body>
+</html>
